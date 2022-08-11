@@ -36,11 +36,11 @@ describe 'solver methods' do
     end
     it 'returns fizzbuzz for the number 15' do
       result = 'fizzbuzz'
-      expect(solve.fizzbuzz(25)).to eq(result)
+      expect(solve.fizzbuzz(15)).to eq(result)
     end
     it 'returns string 7 for the number 7' do
       result = '7'
-      expect(solve.fizzbuzz(25)).to eq(result)
+      expect(solve.fizzbuzz(7)).to eq(result)
     end
   end
 end

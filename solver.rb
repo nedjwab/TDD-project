@@ -8,7 +8,7 @@ class Solver
       num * factorial(num - 1)
     end
   end
-  
+
   def reverse(word)
     word.reverse
   end
@@ -22,7 +22,7 @@ class Solver
     elsif (num % 5).zero?
       'buzz'
     else
-      num
+      num.to_s
     end
   end
 end
