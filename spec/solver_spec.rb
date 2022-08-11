@@ -23,4 +23,22 @@ describe 'solver methods' do
             string = "awjden"
             expect(solve.reverse("nedjwa")).to eq(string)
         end
+
+    context 'test for the fizzbuzz method' do
+        it 'returns fizz for the number 6' do
+            result = "fizz"
+            expect(solve.fizzbuzz(6)).to eq(result)
+        end
+        it 'returns buzz for the number 20' do
+            result = "buzz"
+            expect(solve.fizzbuzz(20)).to eq(result)
+        end
+        it 'returns fizzbuzz for the number 15' do
+            result = "fizzbuzz"
+            expect(solve.fizzbuzz(25)).to eq(result)
+        end
+        it 'returns string 7 for the number 7' do
+            result = "7"
+            expect(solve.fizzbuzz(25)).to eq(result)
+        end
 end
