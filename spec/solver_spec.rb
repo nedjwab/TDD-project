@@ -16,4 +16,11 @@ describe 'solver methods' do
     it 'raises an exception for negative numbers' do
         expect(solve.factorial(-6)).to raise_error("negative number") 
     end
-  end
+
+
+    context 'test for the reverse method' do
+        it 'returns awjden for the string nedjwa' do
+            string = "awjden"
+            expect(solve.reverse("nedjwa")).to eq(string)
+        end
+end
